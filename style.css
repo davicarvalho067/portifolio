@@ -1,0 +1,35 @@
+body {
+  background-image: url(https://falardewebtoon.com.br/wp-content/uploads/2025/08/sense-life-02_fdw-2048x1152.jpg);
+text-align: center;
+}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+button,
+.btn {
+  background: linear-gradient(135deg, #FFD700, #A020F0) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 8px;
+  padding: 7px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+button:hover,
+.btn:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 10px #A020F088;
+}
+
+button:active,
+.btn:active {
+  transform: scale(0.97);
+}
+</style>
